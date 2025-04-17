@@ -10,13 +10,8 @@
 # 1. Crear una función llamada imprimir_hola_mundo que imprima por pantalla el 
 # mensaje: “Hola Mundo!”. Llamar a esta función desde el programa principal.
 
-def imprimir_hola_mundo():
-  print("Hola Mundo!")
-
-# Llamada a la función desde el programa principal
-if __name__ == "__main__":
-  imprimir_hola_mundo()
-
+nombre = input("coloca la palabra mundo")
+print( f"hola {nombre}")
 
 print ################
 
